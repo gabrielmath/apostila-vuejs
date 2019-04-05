@@ -14,10 +14,10 @@
         },
         methods: {
             falhou() {
-                this.$router.replace('/usuario/erro');
+                this.$router.replace('/usuarios/erro');
             },
             beleza() {
-                this.$router.replace('/usuario/gabriel');
+                this.$router.replace('/usuarios/gabriel');
             }
         }
     }

@@ -9,9 +9,9 @@
 <script>
     export default {
         name: "lv-usuarios",
-        // data() {
-        //     return {}
-        // },
+        data() {
+            return {}
+        },
     }
 </script>
 

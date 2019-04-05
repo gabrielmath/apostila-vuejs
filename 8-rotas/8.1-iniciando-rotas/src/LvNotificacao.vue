@@ -1,5 +1,5 @@
 <template>
-    <div class="notificacao">
+    <div>
         <h1>Notificação</h1>
         <p v-if="msg == 'erro'">Erro ao cadastrar usuário</p>
         <p v-if="msg != 'erro'">Olá, {{ msg }}</p>
@@ -9,10 +9,7 @@
 <script>
     export default {
         name: "lv-notificacao",
-        props: ['msg'],
-        data() {
-            return {}
-        },
+        props: ['msg']
     }
 </script>
 
